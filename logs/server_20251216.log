@@ -1,0 +1,146 @@
+2025-12-16 14:33:17,646 - app.main - INFO - ============================================================
+2025-12-16 14:33:17,646 - app.main - INFO - Starting AI Summarization Server
+2025-12-16 14:33:17,646 - app.main - INFO - ============================================================
+2025-12-16 14:33:17,646 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-16 14:33:17,646 - app.main - INFO - Model: gpt-oss:20b
+2025-12-16 14:33:17,646 - app.main - INFO - Max file size: 20MB
+2025-12-16 14:33:17,646 - app.main - INFO - Allowed extensions: pdf, docx, txt
+2025-12-16 14:33:19,724 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-16 14:33:21,768 - app.main - INFO - Available models: gpt-oss:20b, deepseek-r1:latest
+2025-12-16 14:33:21,770 - app.main - INFO - ============================================================
+2025-12-16 14:38:53,417 - app.main - INFO - ============================================================
+2025-12-16 14:38:53,417 - app.main - INFO - Starting AI Summarization Server
+2025-12-16 14:38:53,417 - app.main - INFO - ============================================================
+2025-12-16 14:38:53,417 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-16 14:38:53,417 - app.main - INFO - Model: gpt-oss:20b
+2025-12-16 14:38:53,417 - app.main - INFO - Max file size: 20MB
+2025-12-16 14:38:53,417 - app.main - INFO - Allowed extensions: pdf, docx, txt
+2025-12-16 14:38:55,458 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-16 14:38:57,516 - app.main - INFO - Available models: gpt-oss:20b, deepseek-r1:latest
+2025-12-16 14:38:57,516 - app.main - INFO - ============================================================
+2025-12-16 14:39:37,684 - app.main - INFO - Shutting down AI Summarization Server
+2025-12-16 14:39:58,204 - app.main - INFO - ============================================================
+2025-12-16 14:39:58,204 - app.main - INFO - Starting AI Summarization Server
+2025-12-16 14:39:58,204 - app.main - INFO - ============================================================
+2025-12-16 14:39:58,204 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-16 14:39:58,204 - app.main - INFO - Model: gpt-oss:20b
+2025-12-16 14:39:58,204 - app.main - INFO - Max file size: 20MB
+2025-12-16 14:39:58,204 - app.main - INFO - Allowed extensions: pdf, docx, txt
+2025-12-16 14:40:00,245 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-16 14:40:02,276 - app.main - INFO - Available models: gpt-oss:20b, deepseek-r1:latest
+2025-12-16 14:40:02,278 - app.main - INFO - ============================================================
+2025-12-16 14:40:55,745 - app.main - INFO - Shutting down AI Summarization Server
+2025-12-16 14:41:26,789 - app.main - INFO - ============================================================
+2025-12-16 14:41:26,790 - app.main - INFO - Starting AI Summarization Server
+2025-12-16 14:41:26,790 - app.main - INFO - ============================================================
+2025-12-16 14:41:26,790 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-16 14:41:26,790 - app.main - INFO - Model: gpt-oss:20b
+2025-12-16 14:41:26,790 - app.main - INFO - Max file size: 20MB
+2025-12-16 14:41:26,790 - app.main - INFO - Allowed extensions: pdf, docx, txt
+2025-12-16 14:41:28,820 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-16 14:41:30,877 - app.main - INFO - Available models: gpt-oss:20b, deepseek-r1:latest
+2025-12-16 14:41:30,877 - app.main - INFO - ============================================================
+2025-12-16 14:42:12,875 - app.main - INFO - ============================================================
+2025-12-16 14:42:12,875 - app.main - INFO - Starting AI Summarization Server
+2025-12-16 14:42:12,875 - app.main - INFO - ============================================================
+2025-12-16 14:42:12,875 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-16 14:42:12,875 - app.main - INFO - Model: gpt-oss:20b
+2025-12-16 14:42:12,875 - app.main - INFO - Max file size: 20MB
+2025-12-16 14:42:12,875 - app.main - INFO - Allowed extensions: pdf, docx, txt
+2025-12-16 14:42:14,920 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-16 14:42:16,967 - app.main - INFO - Available models: gpt-oss:20b, deepseek-r1:latest
+2025-12-16 14:42:16,967 - app.main - INFO - ============================================================
+2025-12-16 14:42:16,967 - app.main - INFO - Shutting down AI Summarization Server
+2025-12-16 14:42:23,319 - app.main - INFO - Shutting down AI Summarization Server
+2025-12-16 14:42:35,445 - app.main - INFO - ============================================================
+2025-12-16 14:42:35,445 - app.main - INFO - Starting AI Summarization Server
+2025-12-16 14:42:35,445 - app.main - INFO - ============================================================
+2025-12-16 14:42:35,445 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-16 14:42:35,445 - app.main - INFO - Model: gpt-oss:20b
+2025-12-16 14:42:35,445 - app.main - INFO - Max file size: 20MB
+2025-12-16 14:42:35,445 - app.main - INFO - Allowed extensions: pdf, docx, txt
+2025-12-16 14:42:37,490 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-16 14:42:39,546 - app.main - INFO - Available models: gpt-oss:20b, deepseek-r1:latest
+2025-12-16 14:42:39,546 - app.main - INFO - ============================================================
+2025-12-16 14:47:15,511 - app.main - INFO - Shutting down AI Summarization Server
+2025-12-16 14:47:24,343 - app.main - INFO - ============================================================
+2025-12-16 14:47:24,343 - app.main - INFO - Starting AI Summarization Server
+2025-12-16 14:47:24,343 - app.main - INFO - ============================================================
+2025-12-16 14:47:24,343 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-16 14:47:24,343 - app.main - INFO - Model: gpt-oss:20b
+2025-12-16 14:47:24,343 - app.main - INFO - Max file size: 20MB
+2025-12-16 14:47:24,344 - app.main - INFO - Allowed extensions: pdf, docx, txt, xlsx, xls
+2025-12-16 14:47:26,386 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-16 14:47:28,397 - app.main - INFO - Available models: gpt-oss:20b, deepseek-r1:latest
+2025-12-16 14:47:28,398 - app.main - INFO - ============================================================
+2025-12-16 14:47:57,540 - app.api.summarize - INFO - Processing file: customer_shopping_data.xlsx
+2025-12-16 14:47:57,558 - app.services.file_service - INFO - Saved file: customer_shopping_data.xlsx -> C:\projects\Summarise\AI Server\temp\uploads\9210a394-fc59-4b5b-a282-a2dccd3dd827.xlsx (5221971 bytes)
+2025-12-16 14:47:57,559 - app.api.summarize - INFO - Extracting text from file
+2025-12-16 14:48:13,875 - app.api.summarize - INFO - Extracted 9664151 characters
+2025-12-16 14:48:13,876 - app.services.summarizer - INFO - Starting summarization for text of length 9664151
+2025-12-16 14:48:13,886 - app.services.summarizer - INFO - Text split into 3580 chunks
+2025-12-16 14:48:13,886 - app.services.summarizer - INFO - Summarizing chunk 1/3580
+2025-12-16 14:48:13,886 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-16 14:48:24,770 - app.services.ollama_client - INFO - Successfully generated 876 characters
+2025-12-16 14:48:24,771 - app.services.summarizer - INFO - Summarizing chunk 2/3580
+2025-12-16 14:48:24,771 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-16 14:48:33,963 - app.services.ollama_client - INFO - Successfully generated 958 characters
+2025-12-16 14:48:33,963 - app.services.summarizer - INFO - Summarizing chunk 3/3580
+2025-12-16 14:48:33,963 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-16 14:48:44,455 - app.services.ollama_client - INFO - Successfully generated 680 characters
+2025-12-16 14:48:44,455 - app.services.summarizer - INFO - Summarizing chunk 4/3580
+2025-12-16 14:48:44,455 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-16 14:48:53,599 - app.services.ollama_client - INFO - Successfully generated 765 characters
+2025-12-16 14:48:53,599 - app.services.summarizer - INFO - Summarizing chunk 5/3580
+2025-12-16 14:48:53,600 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-16 14:49:09,116 - app.services.ollama_client - INFO - Successfully generated 789 characters
+2025-12-16 14:49:09,117 - app.services.summarizer - INFO - Summarizing chunk 6/3580
+2025-12-16 14:49:09,117 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-16 14:49:14,523 - app.services.ollama_client - INFO - Successfully generated 724 characters
+2025-12-16 14:49:14,523 - app.services.summarizer - INFO - Summarizing chunk 7/3580
+2025-12-16 14:49:14,523 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-16 14:49:20,660 - app.services.ollama_client - INFO - Successfully generated 792 characters
+2025-12-16 14:49:20,661 - app.services.summarizer - INFO - Summarizing chunk 8/3580
+2025-12-16 14:49:20,661 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-16 14:49:27,657 - app.services.ollama_client - INFO - Successfully generated 496 characters
+2025-12-16 14:49:27,657 - app.services.summarizer - INFO - Summarizing chunk 9/3580
+2025-12-16 14:49:27,657 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-16 14:49:48,893 - app.services.ollama_client - INFO - Successfully generated 891 characters
+2025-12-16 14:49:48,893 - app.services.summarizer - INFO - Summarizing chunk 10/3580
+2025-12-16 14:49:48,893 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-16 14:50:08,373 - app.services.ollama_client - INFO - Successfully generated 682 characters
+2025-12-16 14:50:08,373 - app.services.summarizer - INFO - Summarizing chunk 11/3580
+2025-12-16 14:50:08,373 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-16 14:52:10,428 - app.services.ollama_client - WARNING - Request timeout after 120s (attempt 1)
+2025-12-16 14:52:10,428 - app.services.ollama_client - INFO - Calling Ollama API (attempt 2/2)
+2025-12-16 14:54:12,489 - app.services.ollama_client - WARNING - Request timeout after 120s (attempt 2)
+2025-12-16 14:54:12,489 - app.api.summarize - ERROR - Summarization failed: Failed to generate text after 2 attempts: Request timeout after 120s
+2025-12-16 14:54:12,490 - app.services.file_service - ERROR - Failed to delete file C:\projects\Summarise\AI Server\temp\uploads\9210a394-fc59-4b5b-a282-a2dccd3dd827.xlsx: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\projects\\Summarise\\AI Server\\temp\\uploads\\9210a394-fc59-4b5b-a282-a2dccd3dd827.xlsx'
+2025-12-16 14:54:12,598 - app.main - INFO - Shutting down AI Summarization Server
+2025-12-16 14:55:04,252 - app.main - INFO - ============================================================
+2025-12-16 14:55:04,252 - app.main - INFO - Starting AI Summarization Server
+2025-12-16 14:55:04,252 - app.main - INFO - ============================================================
+2025-12-16 14:55:04,252 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-16 14:55:04,252 - app.main - INFO - Model: gpt-oss:20b
+2025-12-16 14:55:04,252 - app.main - INFO - Max file size: 20MB
+2025-12-16 14:55:04,252 - app.main - INFO - Allowed extensions: pdf, docx, txt, xlsx, xls
+2025-12-16 14:55:06,297 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-16 14:55:08,353 - app.main - INFO - Available models: gpt-oss:20b, deepseek-r1:latest
+2025-12-16 14:55:08,353 - app.main - INFO - ============================================================
+2025-12-16 14:55:17,670 - app.api.summarize - INFO - Processing file: test1.xlsx
+2025-12-16 14:55:17,672 - app.services.file_service - INFO - Saved file: test1.xlsx -> C:\projects\Summarise\AI Server\temp\uploads\7c46b12b-738d-4731-8096-99f74be834ed.xlsx (9391 bytes)
+2025-12-16 14:55:17,672 - app.api.summarize - INFO - Extracting text from file
+2025-12-16 14:55:17,706 - app.api.summarize - INFO - Extracted 1887 characters
+2025-12-16 14:55:17,706 - app.services.summarizer - INFO - Starting summarization for text of length 1887
+2025-12-16 14:55:17,706 - app.services.summarizer - INFO - Text split into 1 chunks
+2025-12-16 14:55:17,706 - app.services.summarizer - INFO - Summarizing chunk 1/1
+2025-12-16 14:55:17,706 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-16 14:55:26,731 - app.services.ollama_client - INFO - Successfully generated 543 characters
+2025-12-16 14:55:26,732 - app.services.summarizer - INFO - Combining chunk summaries
+2025-12-16 14:55:26,732 - app.services.summarizer - INFO - Extracting key points
+2025-12-16 14:55:26,732 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-16 14:55:29,766 - app.services.ollama_client - INFO - Successfully generated 346 characters
+2025-12-16 14:55:29,766 - app.services.summarizer - INFO - Summarization complete
+2025-12-16 14:55:29,766 - app.api.summarize - INFO - Successfully processed test1.xlsx in 12.1s
+2025-12-16 14:55:29,767 - app.services.file_service - ERROR - Failed to delete file C:\projects\Summarise\AI Server\temp\uploads\7c46b12b-738d-4731-8096-99f74be834ed.xlsx: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\projects\\Summarise\\AI Server\\temp\\uploads\\7c46b12b-738d-4731-8096-99f74be834ed.xlsx'
+2025-12-16 14:58:28,856 - app.main - INFO - Shutting down AI Summarization Server

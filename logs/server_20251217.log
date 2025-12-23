@@ -1,0 +1,374 @@
+2025-12-17 19:43:22,570 - app.main - INFO - ============================================================
+2025-12-17 19:43:22,570 - app.main - INFO - Starting AI Summarization Server
+2025-12-17 19:43:22,571 - app.main - INFO - ============================================================
+2025-12-17 19:43:22,571 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-17 19:43:22,571 - app.main - INFO - Model: gpt-oss:20b
+2025-12-17 19:43:22,571 - app.main - INFO - Max file size: 20MB
+2025-12-17 19:43:22,571 - app.main - INFO - Allowed extensions: pdf, docx, txt, xlsx, xls
+2025-12-17 19:43:24,604 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-17 19:43:26,661 - app.main - INFO - Available models: gpt-oss:20b, deepseek-r1:latest
+2025-12-17 19:43:26,661 - app.main - INFO - ============================================================
+2025-12-17 19:43:58,561 - app.api.summarize - INFO - Processing file: test1.xlsx
+2025-12-17 19:43:58,562 - app.services.file_service - INFO - Saved file: test1.xlsx -> C:\projects\Summarise\AI Server\AI SERVER\temp\uploads\206191ec-b723-474a-866d-501fe029d261.xlsx (9391 bytes)
+2025-12-17 19:43:58,563 - app.api.summarize - INFO - Extracting text from file
+2025-12-17 19:43:58,589 - app.api.summarize - INFO - Extracted 1887 characters
+2025-12-17 19:43:58,589 - app.services.summarizer - INFO - Starting summarization for text of length 1887
+2025-12-17 19:43:58,590 - app.services.summarizer - INFO - Text split into 1 chunks
+2025-12-17 19:43:58,593 - app.services.summarizer - INFO - Summarizing chunk 1/1
+2025-12-17 19:43:58,593 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 19:44:08,908 - app.services.ollama_client - INFO - Successfully generated 689 characters
+2025-12-17 19:44:08,908 - app.services.summarizer - INFO - Combining chunk summaries
+2025-12-17 19:44:08,909 - app.services.summarizer - INFO - Extracting key points
+2025-12-17 19:44:08,909 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 19:44:12,100 - app.services.ollama_client - INFO - Successfully generated 255 characters
+2025-12-17 19:44:12,105 - app.services.summarizer - INFO - Summarization complete
+2025-12-17 19:44:12,106 - app.api.summarize - INFO - Successfully processed test1.xlsx in 13.54s
+2025-12-17 19:44:12,106 - app.services.file_service - ERROR - Failed to delete file C:\projects\Summarise\AI Server\AI SERVER\temp\uploads\206191ec-b723-474a-866d-501fe029d261.xlsx: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\projects\\Summarise\\AI Server\\AI SERVER\\temp\\uploads\\206191ec-b723-474a-866d-501fe029d261.xlsx'
+2025-12-17 19:49:55,736 - app.main - INFO - Shutting down AI Summarization Server
+2025-12-17 19:50:00,941 - app.main - INFO - ============================================================
+2025-12-17 19:50:00,941 - app.main - INFO - Starting AI Summarization Server
+2025-12-17 19:50:00,941 - app.main - INFO - ============================================================
+2025-12-17 19:50:00,941 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-17 19:50:00,941 - app.main - INFO - Model: gpt-oss:20b
+2025-12-17 19:50:00,941 - app.main - INFO - Max file size: 20MB
+2025-12-17 19:50:00,941 - app.main - INFO - Allowed extensions: pdf, docx, txt, xlsx, xls
+2025-12-17 19:50:02,987 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-17 19:50:05,049 - app.main - INFO - Available models: gpt-oss:20b, deepseek-r1:latest
+2025-12-17 19:50:05,049 - app.main - INFO - ============================================================
+2025-12-17 19:50:31,380 - app.api.summarize - INFO - Processing file: test1.xlsx
+2025-12-17 19:50:31,385 - app.services.file_service - INFO - Saved file: test1.xlsx -> C:\projects\Summarise\AI Server\AI SERVER\temp\uploads\fa693d50-8ddb-44c9-bc2c-af4a5c42352d.xlsx (9391 bytes)
+2025-12-17 19:50:31,386 - app.api.summarize - INFO - Extracting text from file
+2025-12-17 19:50:31,406 - app.api.summarize - INFO - Extracted 1887 characters
+2025-12-17 19:50:31,407 - app.services.summarizer - INFO - Starting summarization for text of length 1887
+2025-12-17 19:50:31,407 - app.services.summarizer - INFO - Text split into 1 chunks
+2025-12-17 19:50:31,407 - app.services.summarizer - INFO - Summarizing chunk 1/1
+2025-12-17 19:50:31,407 - app.api.summarize - ERROR - Summarization failed: name 'system_message' is not defined
+2025-12-17 19:50:31,407 - app.services.file_service - ERROR - Failed to delete file C:\projects\Summarise\AI Server\AI SERVER\temp\uploads\fa693d50-8ddb-44c9-bc2c-af4a5c42352d.xlsx: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\projects\\Summarise\\AI Server\\AI SERVER\\temp\\uploads\\fa693d50-8ddb-44c9-bc2c-af4a5c42352d.xlsx'
+2025-12-17 19:52:04,921 - app.main - INFO - Shutting down AI Summarization Server
+2025-12-17 19:52:10,088 - app.main - INFO - ============================================================
+2025-12-17 19:52:10,088 - app.main - INFO - Starting AI Summarization Server
+2025-12-17 19:52:10,088 - app.main - INFO - ============================================================
+2025-12-17 19:52:10,088 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-17 19:52:10,088 - app.main - INFO - Model: gpt-oss:20b
+2025-12-17 19:52:10,088 - app.main - INFO - Max file size: 20MB
+2025-12-17 19:52:10,088 - app.main - INFO - Allowed extensions: pdf, docx, txt, xlsx, xls
+2025-12-17 19:52:12,099 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-17 19:52:14,145 - app.main - INFO - Available models: gpt-oss:20b, deepseek-r1:latest
+2025-12-17 19:52:14,145 - app.main - INFO - ============================================================
+2025-12-17 19:54:55,487 - app.api.summarize - INFO - Processing file: test1.xlsx
+2025-12-17 19:54:55,488 - app.services.file_service - INFO - Saved file: test1.xlsx -> C:\projects\Summarise\AI Server\AI SERVER\temp\uploads\90d43426-2e5a-449a-8607-47378e83e469.xlsx (9391 bytes)
+2025-12-17 19:54:55,488 - app.api.summarize - INFO - Extracting text from file
+2025-12-17 19:54:55,514 - app.api.summarize - INFO - Extracted 1887 characters
+2025-12-17 19:54:55,515 - app.services.summarizer - INFO - Starting summarization for text of length 1887
+2025-12-17 19:54:55,515 - app.services.summarizer - INFO - Text split into 1 chunks
+2025-12-17 19:54:55,515 - app.services.summarizer - INFO - Summarizing chunk 1/1
+2025-12-17 19:54:55,518 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 19:55:02,984 - app.services.ollama_client - INFO - Successfully generated 311 characters
+2025-12-17 19:55:02,984 - app.services.summarizer - INFO - Combining chunk summaries
+2025-12-17 19:55:02,984 - app.services.summarizer - INFO - Extracting key points
+2025-12-17 19:55:02,984 - app.api.summarize - ERROR - Summarization failed: 'Summarizer' object has no attribute 'SYSTEM_MESSAGE'
+2025-12-17 19:55:02,985 - app.services.file_service - ERROR - Failed to delete file C:\projects\Summarise\AI Server\AI SERVER\temp\uploads\90d43426-2e5a-449a-8607-47378e83e469.xlsx: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\projects\\Summarise\\AI Server\\AI SERVER\\temp\\uploads\\90d43426-2e5a-449a-8607-47378e83e469.xlsx'
+2025-12-17 19:56:30,613 - app.main - INFO - Shutting down AI Summarization Server
+2025-12-17 19:56:54,585 - app.main - INFO - ============================================================
+2025-12-17 19:56:54,585 - app.main - INFO - Starting AI Summarization Server
+2025-12-17 19:56:54,585 - app.main - INFO - ============================================================
+2025-12-17 19:56:54,585 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-17 19:56:54,585 - app.main - INFO - Model: gpt-oss:20b
+2025-12-17 19:56:54,585 - app.main - INFO - Max file size: 20MB
+2025-12-17 19:56:54,585 - app.main - INFO - Allowed extensions: pdf, docx, txt, xlsx, xls
+2025-12-17 19:56:56,649 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-17 19:56:58,692 - app.main - INFO - Available models: gpt-oss:20b, deepseek-r1:latest
+2025-12-17 19:56:58,693 - app.main - INFO - ============================================================
+2025-12-17 19:57:43,086 - app.api.summarize - INFO - Processing file: test1.xlsx
+2025-12-17 19:57:43,087 - app.services.file_service - INFO - Saved file: test1.xlsx -> C:\projects\Summarise\AI Server\AI SERVER\temp\uploads\550e0681-7dfd-4042-a43c-5f5a76b7d637.xlsx (9391 bytes)
+2025-12-17 19:57:43,087 - app.api.summarize - INFO - Extracting text from file
+2025-12-17 19:57:43,121 - app.api.summarize - INFO - Extracted 1887 characters
+2025-12-17 19:57:43,122 - app.services.summarizer - INFO - Starting summarization for text of length 1887
+2025-12-17 19:57:43,122 - app.services.summarizer - INFO - Text split into 1 chunks
+2025-12-17 19:57:43,122 - app.services.summarizer - INFO - Summarizing chunk 1/1
+2025-12-17 19:57:43,122 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 19:57:47,824 - app.services.ollama_client - WARNING - Error: Empty response from Ollama (attempt 1)
+2025-12-17 19:57:47,825 - app.services.ollama_client - INFO - Calling Ollama API (attempt 2/2)
+2025-12-17 19:57:52,356 - app.services.ollama_client - WARNING - Error: Empty response from Ollama (attempt 2)
+2025-12-17 19:57:52,358 - app.api.summarize - ERROR - Summarization failed: Failed to generate text after 2 attempts: Empty response from Ollama
+2025-12-17 19:57:52,359 - app.services.file_service - ERROR - Failed to delete file C:\projects\Summarise\AI Server\AI SERVER\temp\uploads\550e0681-7dfd-4042-a43c-5f5a76b7d637.xlsx: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\projects\\Summarise\\AI Server\\AI SERVER\\temp\\uploads\\550e0681-7dfd-4042-a43c-5f5a76b7d637.xlsx'
+2025-12-17 19:58:41,524 - app.main - INFO - Shutting down AI Summarization Server
+2025-12-17 19:58:49,063 - app.main - INFO - ============================================================
+2025-12-17 19:58:49,063 - app.main - INFO - Starting AI Summarization Server
+2025-12-17 19:58:49,063 - app.main - INFO - ============================================================
+2025-12-17 19:58:49,063 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-17 19:58:49,063 - app.main - INFO - Model: gpt-oss:20b
+2025-12-17 19:58:49,063 - app.main - INFO - Max file size: 20MB
+2025-12-17 19:58:49,063 - app.main - INFO - Allowed extensions: pdf, docx, txt, xlsx, xls
+2025-12-17 19:58:51,102 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-17 19:58:53,147 - app.main - INFO - Available models: gpt-oss:20b, deepseek-r1:latest
+2025-12-17 19:58:53,147 - app.main - INFO - ============================================================
+2025-12-17 19:59:29,544 - app.api.summarize - INFO - Processing file: test1.xlsx
+2025-12-17 19:59:29,544 - app.services.file_service - INFO - Saved file: test1.xlsx -> C:\projects\Summarise\AI Server\AI SERVER\temp\uploads\9911a483-2fa8-446e-9c76-463698d2b156.xlsx (9391 bytes)
+2025-12-17 19:59:29,547 - app.api.summarize - INFO - Extracting text from file
+2025-12-17 19:59:29,581 - app.api.summarize - INFO - Extracted 1887 characters
+2025-12-17 19:59:29,581 - app.services.summarizer - INFO - Starting summarization for text of length 1887
+2025-12-17 19:59:29,582 - app.services.summarizer - INFO - Text split into 1 chunks
+2025-12-17 19:59:29,582 - app.services.summarizer - INFO - Summarizing chunk 1/1
+2025-12-17 19:59:29,582 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 19:59:34,219 - app.services.ollama_client - INFO - Successfully generated 757 characters
+2025-12-17 19:59:34,219 - app.services.summarizer - INFO - Combining chunk summaries
+2025-12-17 19:59:34,220 - app.services.summarizer - INFO - Extracting key points
+2025-12-17 19:59:34,220 - app.api.summarize - ERROR - Summarization failed: 'Summarizer' object has no attribute 'SYSTEM_MESSAGE'
+2025-12-17 19:59:34,220 - app.services.file_service - ERROR - Failed to delete file C:\projects\Summarise\AI Server\AI SERVER\temp\uploads\9911a483-2fa8-446e-9c76-463698d2b156.xlsx: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\projects\\Summarise\\AI Server\\AI SERVER\\temp\\uploads\\9911a483-2fa8-446e-9c76-463698d2b156.xlsx'
+2025-12-17 19:59:55,699 - app.main - INFO - Shutting down AI Summarization Server
+2025-12-17 20:01:04,177 - app.main - INFO - ============================================================
+2025-12-17 20:01:04,177 - app.main - INFO - Starting AI Summarization Server
+2025-12-17 20:01:04,178 - app.main - INFO - ============================================================
+2025-12-17 20:01:04,178 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-17 20:01:04,178 - app.main - INFO - Model: gpt-oss:20b
+2025-12-17 20:01:04,178 - app.main - INFO - Max file size: 20MB
+2025-12-17 20:01:04,178 - app.main - INFO - Allowed extensions: pdf, docx, txt, xlsx, xls
+2025-12-17 20:01:06,194 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-17 20:01:08,218 - app.main - INFO - Available models: gpt-oss:20b, deepseek-r1:latest
+2025-12-17 20:01:08,218 - app.main - INFO - ============================================================
+2025-12-17 20:02:06,633 - app.api.summarize - INFO - Processing file: test1.xlsx
+2025-12-17 20:02:06,634 - app.services.file_service - INFO - Saved file: test1.xlsx -> C:\projects\Summarise\AI Server\AI SERVER\temp\uploads\5dd2f789-bf6a-4426-a244-faf0c9f60dd7.xlsx (9391 bytes)
+2025-12-17 20:02:06,634 - app.api.summarize - INFO - Extracting text from file
+2025-12-17 20:02:06,656 - app.api.summarize - INFO - Extracted 1887 characters
+2025-12-17 20:02:06,656 - app.services.summarizer - INFO - Starting summarization for text of length 1887
+2025-12-17 20:02:06,656 - app.services.summarizer - INFO - Text split into 1 chunks
+2025-12-17 20:02:06,656 - app.services.summarizer - INFO - Summarizing chunk 1/1
+2025-12-17 20:02:06,656 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 20:02:11,205 - app.services.ollama_client - INFO - Successfully generated 1482 characters
+2025-12-17 20:02:11,205 - app.services.summarizer - INFO - Combining chunk summaries
+2025-12-17 20:02:11,205 - app.services.summarizer - INFO - Extracting key points
+2025-12-17 20:02:11,205 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 20:02:15,246 - app.services.ollama_client - INFO - Successfully generated 897 characters
+2025-12-17 20:02:15,247 - app.services.summarizer - INFO - Summarization complete
+2025-12-17 20:02:15,247 - app.api.summarize - INFO - Successfully processed test1.xlsx in 8.61s
+2025-12-17 20:02:15,247 - app.services.file_service - ERROR - Failed to delete file C:\projects\Summarise\AI Server\AI SERVER\temp\uploads\5dd2f789-bf6a-4426-a244-faf0c9f60dd7.xlsx: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\projects\\Summarise\\AI Server\\AI SERVER\\temp\\uploads\\5dd2f789-bf6a-4426-a244-faf0c9f60dd7.xlsx'
+2025-12-17 20:12:35,796 - app.main - INFO - Shutting down AI Summarization Server
+2025-12-17 20:19:32,517 - app.main - INFO - ============================================================
+2025-12-17 20:19:32,518 - app.main - INFO - Starting AI Summarization Server
+2025-12-17 20:19:32,518 - app.main - INFO - ============================================================
+2025-12-17 20:19:32,518 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-17 20:19:32,518 - app.main - INFO - Model: gpt-oss:20b
+2025-12-17 20:19:32,518 - app.main - INFO - Max file size: 20MB
+2025-12-17 20:19:32,518 - app.main - INFO - Allowed extensions: pdf, docx, txt, xlsx, xls
+2025-12-17 20:19:34,540 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-17 20:19:36,601 - app.main - INFO - Available models: gpt-oss:20b, deepseek-r1:latest
+2025-12-17 20:19:36,601 - app.main - INFO - ============================================================
+2025-12-17 20:21:47,737 - app.api.summarize - INFO - Processing file: test1.xlsx
+2025-12-17 20:21:47,737 - app.services.file_service - INFO - Saved file: test1.xlsx -> C:\projects\Summarise\AI Server\AI SERVER\temp\uploads\14ee112d-7b03-424b-9254-8f4e7067cae4.xlsx (9391 bytes)
+2025-12-17 20:21:47,738 - app.api.summarize - INFO - Extracting text from file
+2025-12-17 20:21:47,755 - app.api.summarize - INFO - Extracted 1887 characters
+2025-12-17 20:21:47,755 - app.services.summarizer - INFO - Starting summarization for text of length 1887
+2025-12-17 20:21:47,755 - app.services.summarizer - INFO - Text split into 1 chunks
+2025-12-17 20:21:47,756 - app.services.summarizer - INFO - Summarizing chunk 1/1
+2025-12-17 20:21:47,756 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 20:21:55,263 - app.services.ollama_client - INFO - Successfully generated 1024 characters
+2025-12-17 20:21:55,264 - app.services.summarizer - INFO - Combining chunk summaries
+2025-12-17 20:21:55,264 - app.services.summarizer - INFO - Extracting key points
+2025-12-17 20:21:55,264 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 20:21:59,762 - app.services.ollama_client - WARNING - Error: Empty response from Ollama (attempt 1)
+2025-12-17 20:21:59,762 - app.services.ollama_client - INFO - Calling Ollama API (attempt 2/2)
+2025-12-17 20:22:03,412 - app.services.ollama_client - INFO - Successfully generated 1155 characters
+2025-12-17 20:22:03,416 - app.services.summarizer - INFO - Summarization complete
+2025-12-17 20:22:03,416 - app.api.summarize - INFO - Successfully processed test1.xlsx in 15.68s
+2025-12-17 20:22:03,416 - app.services.file_service - ERROR - Failed to delete file C:\projects\Summarise\AI Server\AI SERVER\temp\uploads\14ee112d-7b03-424b-9254-8f4e7067cae4.xlsx: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\projects\\Summarise\\AI Server\\AI SERVER\\temp\\uploads\\14ee112d-7b03-424b-9254-8f4e7067cae4.xlsx'
+2025-12-17 20:47:47,161 - app.main - INFO - ============================================================
+2025-12-17 20:47:47,161 - app.main - INFO - Starting AI Summarization Server
+2025-12-17 20:47:47,161 - app.main - INFO - ============================================================
+2025-12-17 20:47:47,161 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-17 20:47:47,161 - app.main - INFO - Model: gpt-oss:20b
+2025-12-17 20:47:47,161 - app.main - INFO - Max file size: 20MB
+2025-12-17 20:47:47,161 - app.main - INFO - Allowed extensions: pdf, docx, txt, xlsx, xls
+2025-12-17 20:47:49,234 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-17 20:47:51,266 - app.main - INFO - Available models: gpt-oss:20b, deepseek-r1:latest
+2025-12-17 20:47:51,266 - app.main - INFO - ============================================================
+2025-12-17 20:48:20,234 - app.api.summarize - INFO - Processing file: test1.xlsx
+2025-12-17 20:48:20,235 - app.services.file_service - INFO - Saved file: test1.xlsx -> C:\projects\Summarise\AI Server\AI SERVER\temp\uploads\2cee573f-ce43-454d-84e7-c23fd6588239.xlsx (9391 bytes)
+2025-12-17 20:48:20,235 - app.api.summarize - INFO - Extracting text from file
+2025-12-17 20:48:20,258 - app.api.summarize - INFO - Extracted 1887 characters
+2025-12-17 20:48:20,258 - app.services.summarizer - INFO - Starting summarization for text of length 1887
+2025-12-17 20:48:20,259 - app.services.summarizer - INFO - Text split into 1 chunks
+2025-12-17 20:48:20,259 - app.services.summarizer - INFO - Summarizing chunk 1/1
+2025-12-17 20:48:20,259 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 20:48:30,078 - app.services.ollama_client - INFO - Successfully generated 1334 characters
+2025-12-17 20:48:30,082 - app.services.summarizer - INFO - Combining chunk summaries
+2025-12-17 20:48:30,082 - app.services.summarizer - INFO - Extracting key points
+2025-12-17 20:48:30,082 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 20:48:34,375 - app.services.ollama_client - INFO - Successfully generated 1033 characters
+2025-12-17 20:48:34,375 - app.services.summarizer - INFO - Summarization complete
+2025-12-17 20:48:34,376 - app.api.summarize - INFO - Successfully processed test1.xlsx in 14.14s
+2025-12-17 20:48:34,376 - app.services.file_service - ERROR - Failed to delete file C:\projects\Summarise\AI Server\AI SERVER\temp\uploads\2cee573f-ce43-454d-84e7-c23fd6588239.xlsx: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\projects\\Summarise\\AI Server\\AI SERVER\\temp\\uploads\\2cee573f-ce43-454d-84e7-c23fd6588239.xlsx'
+2025-12-17 21:03:10,584 - app.main - INFO - Shutting down AI Summarization Server
+2025-12-17 21:03:47,811 - app.main - INFO - ============================================================
+2025-12-17 21:03:47,811 - app.main - INFO - Starting AI Summarization Server
+2025-12-17 21:03:47,811 - app.main - INFO - ============================================================
+2025-12-17 21:03:47,811 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-17 21:03:47,811 - app.main - INFO - Model: gpt-oss:20b
+2025-12-17 21:03:47,811 - app.main - INFO - Max file size: 20MB
+2025-12-17 21:03:47,811 - app.main - INFO - Allowed extensions: pdf, docx, txt, xlsx, xls
+2025-12-17 21:03:49,839 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-17 21:03:51,883 - app.main - INFO - Available models: gpt-oss:20b, deepseek-r1:latest
+2025-12-17 21:03:51,883 - app.main - INFO - ============================================================
+2025-12-17 21:06:00,239 - app.api.summarize - INFO - Processing file: test1.xlsx
+2025-12-17 21:06:00,240 - app.services.file_service - INFO - Saved file: test1.xlsx -> C:\projects\Summarise\AI Server\AI SERVER\temp\uploads\ed1083d4-263a-4fc2-be0f-76015e9adf1e.xlsx (9391 bytes)
+2025-12-17 21:06:00,241 - app.api.summarize - INFO - Extracting text from file
+2025-12-17 21:06:00,271 - app.api.summarize - INFO - Extracted 1887 characters
+2025-12-17 21:06:00,271 - app.services.summarizer - INFO - Starting summarization for text of length 1887
+2025-12-17 21:06:00,271 - app.services.summarizer - INFO - Text split into 1 chunks
+2025-12-17 21:06:00,271 - app.services.summarizer - INFO - Summarizing chunk 1/1
+2025-12-17 21:06:00,271 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 21:06:11,073 - app.services.ollama_client - INFO - Successfully generated 1225 characters
+2025-12-17 21:06:11,076 - app.services.summarizer - INFO - Combining chunk summaries
+2025-12-17 21:06:11,076 - app.services.summarizer - INFO - Extracting key points
+2025-12-17 21:06:11,076 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 21:06:15,647 - app.services.ollama_client - INFO - Successfully generated 1140 characters
+2025-12-17 21:06:15,648 - app.services.summarizer - INFO - Summarization complete
+2025-12-17 21:06:15,648 - app.api.summarize - INFO - Successfully processed test1.xlsx in 15.41s
+2025-12-17 21:06:15,648 - app.services.file_service - ERROR - Failed to delete file C:\projects\Summarise\AI Server\AI SERVER\temp\uploads\ed1083d4-263a-4fc2-be0f-76015e9adf1e.xlsx: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\projects\\Summarise\\AI Server\\AI SERVER\\temp\\uploads\\ed1083d4-263a-4fc2-be0f-76015e9adf1e.xlsx'
+2025-12-17 21:11:59,253 - app.main - INFO - Shutting down AI Summarization Server
+2025-12-17 21:12:09,229 - app.main - INFO - ============================================================
+2025-12-17 21:12:09,229 - app.main - INFO - Starting AI Summarization Server
+2025-12-17 21:12:09,229 - app.main - INFO - ============================================================
+2025-12-17 21:12:09,229 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-17 21:12:09,229 - app.main - INFO - Model: gpt-oss:20b
+2025-12-17 21:12:09,229 - app.main - INFO - Max file size: 20MB
+2025-12-17 21:12:09,229 - app.main - INFO - Allowed extensions: pdf, docx, txt, xlsx, xls
+2025-12-17 21:12:11,281 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-17 21:12:13,314 - app.main - INFO - Available models: gpt-oss:20b, deepseek-r1:latest
+2025-12-17 21:12:13,315 - app.main - INFO - ============================================================
+2025-12-17 21:13:10,524 - app.api.summarize - INFO - Processing file: test1.xlsx
+2025-12-17 21:13:10,524 - app.services.file_service - INFO - Saved file: test1.xlsx -> C:\projects\Summarise\AI Server\AI SERVER\temp\uploads\9188c5c1-55ef-4990-a0ca-ecde0621d4b9.xlsx (9391 bytes)
+2025-12-17 21:13:10,524 - app.api.summarize - INFO - Extracting text from file
+2025-12-17 21:13:10,547 - app.api.summarize - INFO - Extracted 1887 characters
+2025-12-17 21:13:10,548 - app.services.summarizer - INFO - Starting summarization for text of length 1887
+2025-12-17 21:13:10,548 - app.services.summarizer - INFO - Text split into 1 chunks
+2025-12-17 21:13:10,548 - app.services.summarizer - INFO - Summarizing chunk 1/1
+2025-12-17 21:13:10,548 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 21:13:17,706 - app.services.ollama_client - INFO - Successfully generated 1497 characters
+2025-12-17 21:13:17,707 - app.services.summarizer - INFO - Combining chunk summaries
+2025-12-17 21:13:17,708 - app.services.summarizer - INFO - Extracting key points
+2025-12-17 21:13:17,708 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 21:13:21,057 - app.services.ollama_client - INFO - Successfully generated 885 characters
+2025-12-17 21:13:21,057 - app.services.summarizer - INFO - Summarization complete
+2025-12-17 21:13:21,057 - app.api.summarize - INFO - Successfully processed test1.xlsx in 10.53s
+2025-12-17 21:13:21,057 - app.services.file_service - ERROR - Failed to delete file C:\projects\Summarise\AI Server\AI SERVER\temp\uploads\9188c5c1-55ef-4990-a0ca-ecde0621d4b9.xlsx: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\projects\\Summarise\\AI Server\\AI SERVER\\temp\\uploads\\9188c5c1-55ef-4990-a0ca-ecde0621d4b9.xlsx'
+2025-12-17 21:15:55,684 - app.main - INFO - Shutting down AI Summarization Server
+2025-12-17 21:16:06,907 - app.main - INFO - ============================================================
+2025-12-17 21:16:06,907 - app.main - INFO - Starting AI Summarization Server
+2025-12-17 21:16:06,907 - app.main - INFO - ============================================================
+2025-12-17 21:16:06,907 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-17 21:16:06,907 - app.main - INFO - Model: gpt-oss:20b
+2025-12-17 21:16:06,907 - app.main - INFO - Max file size: 20MB
+2025-12-17 21:16:06,907 - app.main - INFO - Allowed extensions: pdf, docx, txt, xlsx, xls
+2025-12-17 21:16:08,934 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-17 21:16:10,971 - app.main - INFO - Available models: gpt-oss:20b, deepseek-r1:latest
+2025-12-17 21:16:10,972 - app.main - INFO - ============================================================
+2025-12-17 21:17:10,736 - app.api.summarize - INFO - Processing file: test1.xlsx
+2025-12-17 21:17:10,737 - app.services.file_service - INFO - Saved file: test1.xlsx -> C:\projects\Summarise\AI Server\AI SERVER\temp\uploads\31ed4bd2-0ff6-49f2-8778-77190a8d17e4.xlsx (9391 bytes)
+2025-12-17 21:17:10,737 - app.api.summarize - INFO - Extracting text from file
+2025-12-17 21:17:10,757 - app.api.summarize - INFO - Extracted 1887 characters
+2025-12-17 21:17:10,757 - app.services.summarizer - INFO - Starting summarization for text of length 1887
+2025-12-17 21:17:10,757 - app.services.summarizer - INFO - Text split into 1 chunks
+2025-12-17 21:17:10,757 - app.services.summarizer - INFO - Summarizing chunk 1/1
+2025-12-17 21:17:10,757 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 21:17:15,065 - app.services.ollama_client - INFO - Successfully generated 430 characters
+2025-12-17 21:17:15,065 - app.services.summarizer - INFO - Combining chunk summaries
+2025-12-17 21:17:15,066 - app.services.summarizer - INFO - Extracting key points
+2025-12-17 21:17:15,066 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 21:17:18,482 - app.services.ollama_client - INFO - Successfully generated 401 characters
+2025-12-17 21:17:18,483 - app.services.summarizer - INFO - Summarization complete
+2025-12-17 21:17:18,483 - app.api.summarize - INFO - Successfully processed test1.xlsx in 7.75s
+2025-12-17 21:17:18,483 - app.services.file_service - ERROR - Failed to delete file C:\projects\Summarise\AI Server\AI SERVER\temp\uploads\31ed4bd2-0ff6-49f2-8778-77190a8d17e4.xlsx: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\projects\\Summarise\\AI Server\\AI SERVER\\temp\\uploads\\31ed4bd2-0ff6-49f2-8778-77190a8d17e4.xlsx'
+2025-12-17 21:25:02,394 - app.main - INFO - Shutting down AI Summarization Server
+2025-12-17 21:27:08,908 - app.main - INFO - ============================================================
+2025-12-17 21:27:08,908 - app.main - INFO - Starting AI Summarization Server
+2025-12-17 21:27:08,908 - app.main - INFO - ============================================================
+2025-12-17 21:27:08,909 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-17 21:27:08,909 - app.main - INFO - Model: gpt-oss:20b
+2025-12-17 21:27:08,909 - app.main - INFO - Max file size: 20MB
+2025-12-17 21:27:08,909 - app.main - INFO - Allowed extensions: pdf, docx, txt, xlsx, xls
+2025-12-17 21:27:10,933 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-17 21:27:12,964 - app.main - INFO - Available models: gpt-oss:20b, deepseek-r1:latest
+2025-12-17 21:27:12,964 - app.main - INFO - ============================================================
+2025-12-17 21:27:40,493 - app.api.summarize - INFO - Processing file: customer_shopping_data.xlsx
+2025-12-17 21:27:40,512 - app.services.file_service - INFO - Saved file: customer_shopping_data.xlsx -> C:\projects\Summarise\AI Server\AI SERVER\temp\uploads\60556f82-0618-4703-b8f3-83d410eac34d.xlsx (5221971 bytes)
+2025-12-17 21:27:40,513 - app.api.summarize - INFO - Extracting text from file
+2025-12-17 21:27:56,943 - app.api.summarize - INFO - Extracted 9664151 characters
+2025-12-17 21:27:56,944 - app.services.summarizer - INFO - Starting summarization for text of length 9664151
+2025-12-17 21:27:56,954 - app.services.summarizer - INFO - Text split into 3580 chunks
+2025-12-17 21:27:56,954 - app.services.summarizer - INFO - Summarizing chunk 1/3580
+2025-12-17 21:27:56,954 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 21:28:03,078 - app.services.ollama_client - INFO - Successfully generated 513 characters
+2025-12-17 21:28:03,078 - app.services.summarizer - INFO - Summarizing chunk 2/3580
+2025-12-17 21:28:03,078 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 21:28:07,139 - app.services.ollama_client - INFO - Successfully generated 482 characters
+2025-12-17 21:28:07,139 - app.services.summarizer - INFO - Summarizing chunk 3/3580
+2025-12-17 21:28:07,139 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 21:28:11,260 - app.services.ollama_client - INFO - Successfully generated 461 characters
+2025-12-17 21:28:11,261 - app.services.summarizer - INFO - Summarizing chunk 4/3580
+2025-12-17 21:28:11,261 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 21:28:14,690 - app.services.ollama_client - INFO - Successfully generated 404 characters
+2025-12-17 21:28:14,690 - app.services.summarizer - INFO - Summarizing chunk 5/3580
+2025-12-17 21:28:14,690 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 21:28:18,664 - app.services.ollama_client - INFO - Successfully generated 394 characters
+2025-12-17 21:28:18,664 - app.services.summarizer - INFO - Summarizing chunk 6/3580
+2025-12-17 21:28:18,664 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 21:28:22,195 - app.services.ollama_client - INFO - Successfully generated 605 characters
+2025-12-17 21:28:22,196 - app.services.summarizer - INFO - Summarizing chunk 7/3580
+2025-12-17 21:28:22,196 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 21:28:26,053 - app.services.ollama_client - INFO - Successfully generated 467 characters
+2025-12-17 21:28:26,054 - app.services.summarizer - INFO - Summarizing chunk 8/3580
+2025-12-17 21:28:26,054 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 21:28:30,424 - app.services.ollama_client - INFO - Successfully generated 378 characters
+2025-12-17 21:28:30,424 - app.services.summarizer - INFO - Summarizing chunk 9/3580
+2025-12-17 21:28:30,424 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 21:28:34,064 - app.services.ollama_client - INFO - Successfully generated 607 characters
+2025-12-17 21:28:34,064 - app.services.summarizer - INFO - Summarizing chunk 10/3580
+2025-12-17 21:28:34,064 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 21:28:37,907 - app.services.ollama_client - INFO - Successfully generated 402 characters
+2025-12-17 21:28:37,908 - app.services.summarizer - INFO - Summarizing chunk 11/3580
+2025-12-17 21:28:37,908 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 21:29:02,970 - app.main - INFO - ============================================================
+2025-12-17 21:29:02,970 - app.main - INFO - Starting AI Summarization Server
+2025-12-17 21:29:02,970 - app.main - INFO - ============================================================
+2025-12-17 21:29:02,970 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-17 21:29:02,970 - app.main - INFO - Model: gpt-oss:20b
+2025-12-17 21:29:02,970 - app.main - INFO - Max file size: 20MB
+2025-12-17 21:29:02,970 - app.main - INFO - Allowed extensions: pdf, docx, txt, xlsx, xls
+2025-12-17 21:29:05,003 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-17 21:29:07,021 - app.main - INFO - Available models: gpt-oss:20b, deepseek-r1:latest
+2025-12-17 21:29:07,021 - app.main - INFO - ============================================================
+2025-12-17 21:29:55,065 - app.api.summarize - INFO - Processing file: test1.xlsx
+2025-12-17 21:29:55,065 - app.services.file_service - INFO - Saved file: test1.xlsx -> C:\projects\Summarise\AI Server\AI SERVER\temp\uploads\80a9e7f5-0fc9-4fc8-851b-c9d05bdb5c93.xlsx (9391 bytes)
+2025-12-17 21:29:55,066 - app.api.summarize - INFO - Extracting text from file
+2025-12-17 21:29:55,103 - app.api.summarize - INFO - Extracted 1887 characters
+2025-12-17 21:29:55,103 - app.services.summarizer - INFO - Starting summarization for text of length 1887
+2025-12-17 21:29:55,103 - app.services.summarizer - INFO - Text split into 1 chunks
+2025-12-17 21:29:55,104 - app.services.summarizer - INFO - Summarizing chunk 1/1
+2025-12-17 21:29:55,104 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 21:29:58,758 - app.services.ollama_client - INFO - Successfully generated 489 characters
+2025-12-17 21:29:58,759 - app.services.summarizer - INFO - Combining chunk summaries
+2025-12-17 21:29:58,759 - app.services.summarizer - INFO - Extracting key points
+2025-12-17 21:29:58,759 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 21:30:02,400 - app.services.ollama_client - INFO - Successfully generated 395 characters
+2025-12-17 21:30:02,401 - app.services.summarizer - INFO - Summarization complete
+2025-12-17 21:30:02,401 - app.api.summarize - INFO - Successfully processed test1.xlsx in 7.34s
+2025-12-17 21:30:02,401 - app.services.file_service - ERROR - Failed to delete file C:\projects\Summarise\AI Server\AI SERVER\temp\uploads\80a9e7f5-0fc9-4fc8-851b-c9d05bdb5c93.xlsx: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\projects\\Summarise\\AI Server\\AI SERVER\\temp\\uploads\\80a9e7f5-0fc9-4fc8-851b-c9d05bdb5c93.xlsx'
+2025-12-17 21:32:10,522 - app.api.summarize - INFO - Extracting text from file
+2025-12-17 21:32:10,539 - app.api.summarize - INFO - Extracted 4429 characters
+2025-12-17 21:32:10,539 - app.services.summarizer - INFO - Starting summarization for text of length 4429
+2025-12-17 21:32:10,539 - app.services.summarizer - INFO - Text split into 2 chunks
+2025-12-17 21:32:10,539 - app.services.summarizer - INFO - Summarizing chunk 1/2
+2025-12-17 21:32:10,540 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 21:32:15,002 - app.services.ollama_client - INFO - Successfully generated 468 characters
+2025-12-17 21:32:15,002 - app.services.summarizer - INFO - Summarizing chunk 2/2
+2025-12-17 21:32:15,002 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 21:32:18,705 - app.services.ollama_client - INFO - Successfully generated 406 characters
+2025-12-17 21:32:18,705 - app.services.summarizer - INFO - Combining chunk summaries
+2025-12-17 21:32:18,705 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 21:32:22,532 - app.services.ollama_client - INFO - Successfully generated 541 characters
+2025-12-17 21:32:22,533 - app.services.summarizer - INFO - Extracting key points
+2025-12-17 21:32:22,533 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-17 21:32:25,790 - app.services.ollama_client - INFO - Successfully generated 752 characters
+2025-12-17 21:32:25,791 - app.services.summarizer - INFO - Summarization complete
+2025-12-17 21:32:25,792 - app.services.file_service - INFO - Deleted file: C:\projects\Summarise\AI Server\AI SERVER\temp\uploads\4eddb405-0acf-4285-a370-b78bbbd32c58.docx

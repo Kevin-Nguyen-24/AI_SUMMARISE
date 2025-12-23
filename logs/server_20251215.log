@@ -1,0 +1,569 @@
+2025-12-15 17:59:55,213 - app.main - INFO - ============================================================
+2025-12-15 17:59:55,213 - app.main - INFO - Starting AI Summarization Server
+2025-12-15 17:59:55,213 - app.main - INFO - ============================================================
+2025-12-15 17:59:55,213 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-15 17:59:55,213 - app.main - INFO - Model: qwen2.5:7b
+2025-12-15 17:59:55,213 - app.main - INFO - Max file size: 20MB
+2025-12-15 17:59:55,213 - app.main - INFO - Allowed extensions: pdf, docx, txt
+2025-12-15 17:59:59,361 - app.main - INFO - Available models: deepseek-r1:latest
+2025-12-15 17:59:59,363 - app.main - INFO - ============================================================
+2025-12-15 18:01:01,455 - app.main - INFO - Shutting down AI Summarization Server
+2025-12-15 18:03:29,541 - app.main - INFO - ============================================================
+2025-12-15 18:03:29,542 - app.main - INFO - Starting AI Summarization Server
+2025-12-15 18:03:29,542 - app.main - INFO - ============================================================
+2025-12-15 18:03:29,542 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-15 18:03:29,542 - app.main - INFO - Model: qwen2.5:7b
+2025-12-15 18:03:29,542 - app.main - INFO - Max file size: 20MB
+2025-12-15 18:03:29,542 - app.main - INFO - Allowed extensions: pdf, docx, txt
+2025-12-15 18:03:33,605 - app.main - INFO - Available models: deepseek-r1:latest
+2025-12-15 18:03:33,607 - app.main - INFO - ============================================================
+2025-12-15 18:03:42,554 - app.main - INFO - Shutting down AI Summarization Server
+2025-12-15 18:04:12,196 - app.main - INFO - ============================================================
+2025-12-15 18:04:12,196 - app.main - INFO - Starting AI Summarization Server
+2025-12-15 18:04:12,196 - app.main - INFO - ============================================================
+2025-12-15 18:04:12,196 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-15 18:04:12,196 - app.main - INFO - Model: deepseek-r1:latest
+2025-12-15 18:04:12,196 - app.main - INFO - Max file size: 20MB
+2025-12-15 18:04:12,196 - app.main - INFO - Allowed extensions: pdf, docx, txt
+2025-12-15 18:04:14,236 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-15 18:04:16,256 - app.main - INFO - Available models: deepseek-r1:latest
+2025-12-15 18:04:16,257 - app.main - INFO - ============================================================
+2025-12-15 18:13:51,124 - app.main - INFO - ============================================================
+2025-12-15 18:13:51,124 - app.main - INFO - Starting AI Summarization Server
+2025-12-15 18:13:51,124 - app.main - INFO - ============================================================
+2025-12-15 18:13:51,124 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-15 18:13:51,124 - app.main - INFO - Model: qwen2.5:7b
+2025-12-15 18:13:51,124 - app.main - INFO - Max file size: 20MB
+2025-12-15 18:13:51,124 - app.main - INFO - Allowed extensions: pdf, docx, txt
+2025-12-15 18:13:53,175 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-15 18:13:55,207 - app.main - INFO - Available models: deepseek-r1:latest
+2025-12-15 18:13:55,207 - app.main - WARNING - [WARNING] Configured model 'qwen2.5:7b' not found in available models
+2025-12-15 18:13:55,208 - app.main - INFO - ============================================================
+2025-12-15 18:24:26,135 - app.api.summarize - INFO - Processing file: VIET Translation proofread for VWAT Chatbot .docx
+2025-12-15 18:24:26,138 - app.services.file_service - INFO - Saved file: VIET Translation proofread for VWAT Chatbot .docx -> C:\projects\Summarise\AI Server\temp\uploads\dfbe76a7-ac78-4d99-9f11-305f4cb4da7b.docx (1388039 bytes)
+2025-12-15 18:24:26,140 - app.api.summarize - INFO - Extracting text from file
+2025-12-15 18:24:26,252 - app.api.summarize - INFO - Extracted 46565 characters
+2025-12-15 18:24:26,257 - app.services.summarizer - INFO - Starting summarization for text of length 46565
+2025-12-15 18:24:26,257 - app.services.summarizer - INFO - Text split into 18 chunks
+2025-12-15 18:24:26,257 - app.services.summarizer - INFO - Summarizing chunk 1/18
+2025-12-15 18:24:26,258 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 18:24:28,299 - app.services.ollama_client - WARNING - HTTP error: 404 (attempt 1)
+2025-12-15 18:24:28,303 - app.services.ollama_client - INFO - Calling Ollama API (attempt 2/2)
+2025-12-15 18:24:30,355 - app.services.ollama_client - WARNING - HTTP error: 404 (attempt 2)
+2025-12-15 18:24:30,355 - app.api.summarize - ERROR - Summarization failed: Failed to generate text after 2 attempts: HTTP error: 404
+2025-12-15 18:24:30,356 - app.services.file_service - INFO - Deleted file: C:\projects\Summarise\AI Server\temp\uploads\dfbe76a7-ac78-4d99-9f11-305f4cb4da7b.docx
+2025-12-15 18:26:16,667 - app.main - INFO - Shutting down AI Summarization Server
+2025-12-15 18:26:47,401 - app.main - INFO - ============================================================
+2025-12-15 18:26:47,401 - app.main - INFO - Starting AI Summarization Server
+2025-12-15 18:26:47,402 - app.main - INFO - ============================================================
+2025-12-15 18:26:47,402 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-15 18:26:47,402 - app.main - INFO - Model: qwen2.5:7b
+2025-12-15 18:26:47,402 - app.main - INFO - Max file size: 20MB
+2025-12-15 18:26:47,402 - app.main - INFO - Allowed extensions: pdf, docx, txt
+2025-12-15 18:26:49,425 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-15 18:26:51,451 - app.main - INFO - Available models: deepseek-r1:latest
+2025-12-15 18:26:51,451 - app.main - WARNING - [WARNING] Configured model 'qwen2.5:7b' not found in available models
+2025-12-15 18:26:51,451 - app.main - INFO - ============================================================
+2025-12-15 18:27:48,338 - app.api.summarize - INFO - Processing file: VIET Translation proofread for VWAT Chatbot .docx
+2025-12-15 18:27:48,343 - app.services.file_service - INFO - Saved file: VIET Translation proofread for VWAT Chatbot .docx -> C:\projects\Summarise\AI Server\temp\uploads\3faefc20-fcae-4af6-b0cc-c53e547b6fe4.docx (1388039 bytes)
+2025-12-15 18:27:48,347 - app.api.summarize - INFO - Extracting text from file
+2025-12-15 18:27:48,413 - app.api.summarize - INFO - Extracted 46565 characters
+2025-12-15 18:27:48,413 - app.services.summarizer - INFO - Starting summarization for text of length 46565
+2025-12-15 18:27:48,413 - app.services.summarizer - INFO - Text split into 18 chunks
+2025-12-15 18:27:48,413 - app.services.summarizer - INFO - Summarizing chunk 1/18
+2025-12-15 18:27:48,414 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 18:27:50,474 - app.services.ollama_client - WARNING - HTTP error: 404 (attempt 1)
+2025-12-15 18:27:50,475 - app.services.ollama_client - INFO - Calling Ollama API (attempt 2/2)
+2025-12-15 18:27:52,549 - app.services.ollama_client - WARNING - HTTP error: 404 (attempt 2)
+2025-12-15 18:27:52,549 - app.api.summarize - ERROR - Summarization failed: Failed to generate text after 2 attempts: HTTP error: 404
+2025-12-15 18:27:52,550 - app.services.file_service - INFO - Deleted file: C:\projects\Summarise\AI Server\temp\uploads\3faefc20-fcae-4af6-b0cc-c53e547b6fe4.docx
+2025-12-15 18:28:21,567 - app.main - INFO - ============================================================
+2025-12-15 18:28:21,567 - app.main - INFO - Starting AI Summarization Server
+2025-12-15 18:28:21,567 - app.main - INFO - ============================================================
+2025-12-15 18:28:21,567 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-15 18:28:21,567 - app.main - INFO - Model: qwen2.5:7b
+2025-12-15 18:28:21,568 - app.main - INFO - Max file size: 20MB
+2025-12-15 18:28:21,568 - app.main - INFO - Allowed extensions: pdf, docx, txt
+2025-12-15 18:28:23,593 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-15 18:28:25,639 - app.main - INFO - Available models: deepseek-r1:latest
+2025-12-15 18:28:25,640 - app.main - WARNING - [WARNING] Configured model 'qwen2.5:7b' not found in available models
+2025-12-15 18:28:25,640 - app.main - INFO - ============================================================
+2025-12-15 18:28:25,640 - app.main - INFO - Shutting down AI Summarization Server
+2025-12-15 18:28:34,785 - app.main - INFO - Shutting down AI Summarization Server
+2025-12-15 18:28:57,277 - app.main - INFO - ============================================================
+2025-12-15 18:28:57,278 - app.main - INFO - Starting AI Summarization Server
+2025-12-15 18:28:57,278 - app.main - INFO - ============================================================
+2025-12-15 18:28:57,278 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-15 18:28:57,278 - app.main - INFO - Model: qwen2.5:7b
+2025-12-15 18:28:57,278 - app.main - INFO - Max file size: 20MB
+2025-12-15 18:28:57,278 - app.main - INFO - Allowed extensions: pdf, docx, txt
+2025-12-15 18:28:59,314 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-15 18:29:01,357 - app.main - INFO - Available models: deepseek-r1:latest
+2025-12-15 18:29:01,357 - app.main - WARNING - [WARNING] Configured model 'qwen2.5:7b' not found in available models
+2025-12-15 18:29:01,357 - app.main - INFO - ============================================================
+2025-12-15 18:31:40,517 - app.api.summarize - INFO - Processing file: VIET Translation proofread for VWAT Chatbot .docx
+2025-12-15 18:31:40,521 - app.services.file_service - INFO - Saved file: VIET Translation proofread for VWAT Chatbot .docx -> C:\projects\Summarise\AI Server\temp\uploads\48a3b5f3-06c2-47e6-b7af-0e734aeaa467.docx (1388039 bytes)
+2025-12-15 18:31:40,522 - app.api.summarize - INFO - Extracting text from file
+2025-12-15 18:31:40,585 - app.api.summarize - INFO - Extracted 46565 characters
+2025-12-15 18:31:40,585 - app.services.summarizer - INFO - Starting summarization for text of length 46565
+2025-12-15 18:31:40,585 - app.services.summarizer - INFO - Text split into 18 chunks
+2025-12-15 18:31:40,585 - app.services.summarizer - INFO - Summarizing chunk 1/18
+2025-12-15 18:31:40,585 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 18:31:42,626 - app.services.ollama_client - WARNING - HTTP error: 404 (attempt 1)
+2025-12-15 18:31:42,629 - app.services.ollama_client - INFO - Calling Ollama API (attempt 2/2)
+2025-12-15 18:31:44,685 - app.services.ollama_client - WARNING - HTTP error: 404 (attempt 2)
+2025-12-15 18:31:44,686 - app.api.summarize - ERROR - Summarization failed: Failed to generate text after 2 attempts: HTTP error: 404
+2025-12-15 18:31:44,687 - app.services.file_service - INFO - Deleted file: C:\projects\Summarise\AI Server\temp\uploads\48a3b5f3-06c2-47e6-b7af-0e734aeaa467.docx
+2025-12-15 18:36:30,551 - app.main - INFO - Shutting down AI Summarization Server
+2025-12-15 18:36:42,125 - app.main - INFO - ============================================================
+2025-12-15 18:36:42,125 - app.main - INFO - Starting AI Summarization Server
+2025-12-15 18:36:42,125 - app.main - INFO - ============================================================
+2025-12-15 18:36:42,125 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-15 18:36:42,125 - app.main - INFO - Model: deepseek-r1:latest
+2025-12-15 18:36:42,125 - app.main - INFO - Max file size: 20MB
+2025-12-15 18:36:42,126 - app.main - INFO - Allowed extensions: pdf, docx, txt
+2025-12-15 18:36:44,174 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-15 18:36:46,215 - app.main - INFO - Available models: deepseek-r1:latest
+2025-12-15 18:36:46,215 - app.main - INFO - ============================================================
+2025-12-15 18:40:44,232 - app.api.summarize - INFO - Processing file: VIET Translation proofread for VWAT Chatbot .docx
+2025-12-15 18:40:44,236 - app.services.file_service - INFO - Saved file: VIET Translation proofread for VWAT Chatbot .docx -> C:\projects\Summarise\AI Server\temp\uploads\998bb30d-39b0-43c3-b4cd-7ab146cca9cd.docx (1388039 bytes)
+2025-12-15 18:40:44,236 - app.api.summarize - INFO - Extracting text from file
+2025-12-15 18:40:44,314 - app.api.summarize - INFO - Extracted 46565 characters
+2025-12-15 18:40:44,315 - app.services.summarizer - INFO - Starting summarization for text of length 46565
+2025-12-15 18:40:44,315 - app.services.summarizer - INFO - Text split into 18 chunks
+2025-12-15 18:40:44,315 - app.services.summarizer - INFO - Summarizing chunk 1/18
+2025-12-15 18:40:44,315 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 18:40:52,088 - app.services.ollama_client - INFO - Successfully generated 683 characters
+2025-12-15 18:40:52,089 - app.services.summarizer - INFO - Summarizing chunk 2/18
+2025-12-15 18:40:52,089 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 18:41:00,470 - app.services.ollama_client - INFO - Successfully generated 1131 characters
+2025-12-15 18:41:00,470 - app.services.summarizer - INFO - Summarizing chunk 3/18
+2025-12-15 18:41:00,470 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 18:41:05,680 - app.services.ollama_client - INFO - Successfully generated 546 characters
+2025-12-15 18:41:05,681 - app.services.summarizer - INFO - Summarizing chunk 4/18
+2025-12-15 18:41:05,681 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 18:41:10,289 - app.services.ollama_client - INFO - Successfully generated 911 characters
+2025-12-15 18:41:10,289 - app.services.summarizer - INFO - Summarizing chunk 5/18
+2025-12-15 18:41:10,289 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 18:41:16,944 - app.services.ollama_client - INFO - Successfully generated 775 characters
+2025-12-15 18:41:16,947 - app.services.summarizer - INFO - Summarizing chunk 6/18
+2025-12-15 18:41:16,947 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 18:41:21,122 - app.services.ollama_client - INFO - Successfully generated 431 characters
+2025-12-15 18:41:21,122 - app.services.summarizer - INFO - Summarizing chunk 7/18
+2025-12-15 18:41:21,122 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 18:41:25,363 - app.services.ollama_client - INFO - Successfully generated 723 characters
+2025-12-15 18:41:25,364 - app.services.summarizer - INFO - Summarizing chunk 8/18
+2025-12-15 18:41:25,364 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 18:41:29,854 - app.services.ollama_client - INFO - Successfully generated 646 characters
+2025-12-15 18:41:29,856 - app.services.summarizer - INFO - Summarizing chunk 9/18
+2025-12-15 18:41:29,857 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 18:41:35,547 - app.services.ollama_client - INFO - Successfully generated 763 characters
+2025-12-15 18:41:35,548 - app.services.summarizer - INFO - Summarizing chunk 10/18
+2025-12-15 18:41:35,548 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 18:41:41,548 - app.services.ollama_client - INFO - Successfully generated 777 characters
+2025-12-15 18:41:41,548 - app.services.summarizer - INFO - Summarizing chunk 11/18
+2025-12-15 18:41:41,549 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 18:41:46,620 - app.services.ollama_client - INFO - Successfully generated 1070 characters
+2025-12-15 18:41:46,620 - app.services.summarizer - INFO - Summarizing chunk 12/18
+2025-12-15 18:41:46,620 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 18:41:51,495 - app.services.ollama_client - INFO - Successfully generated 1085 characters
+2025-12-15 18:41:51,495 - app.services.summarizer - INFO - Summarizing chunk 13/18
+2025-12-15 18:41:51,495 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 18:41:57,463 - app.services.ollama_client - INFO - Successfully generated 834 characters
+2025-12-15 18:41:57,463 - app.services.summarizer - INFO - Summarizing chunk 14/18
+2025-12-15 18:41:57,464 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 18:42:01,618 - app.services.ollama_client - INFO - Successfully generated 305 characters
+2025-12-15 18:42:01,618 - app.services.summarizer - INFO - Summarizing chunk 15/18
+2025-12-15 18:42:01,619 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 18:42:05,821 - app.services.ollama_client - INFO - Successfully generated 604 characters
+2025-12-15 18:42:05,821 - app.services.summarizer - INFO - Summarizing chunk 16/18
+2025-12-15 18:42:05,822 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 18:42:10,990 - app.services.ollama_client - INFO - Successfully generated 757 characters
+2025-12-15 18:42:10,990 - app.services.summarizer - INFO - Summarizing chunk 17/18
+2025-12-15 18:42:10,990 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 18:42:15,081 - app.services.ollama_client - INFO - Successfully generated 478 characters
+2025-12-15 18:42:15,081 - app.services.summarizer - INFO - Summarizing chunk 18/18
+2025-12-15 18:42:15,082 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 18:42:20,770 - app.services.ollama_client - INFO - Successfully generated 577 characters
+2025-12-15 18:42:20,773 - app.services.summarizer - INFO - Combining chunk summaries
+2025-12-15 18:42:20,773 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 18:42:26,776 - app.services.ollama_client - INFO - Successfully generated 1077 characters
+2025-12-15 18:42:26,776 - app.services.summarizer - INFO - Extracting key points
+2025-12-15 18:42:26,776 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 18:42:30,704 - app.services.ollama_client - INFO - Successfully generated 541 characters
+2025-12-15 18:42:30,704 - app.services.summarizer - INFO - Summarization complete
+2025-12-15 18:42:30,705 - app.api.summarize - INFO - Successfully processed VIET Translation proofread for VWAT Chatbot .docx in 106.47s
+2025-12-15 18:42:30,705 - app.services.file_service - INFO - Deleted file: C:\projects\Summarise\AI Server\temp\uploads\998bb30d-39b0-43c3-b4cd-7ab146cca9cd.docx
+2025-12-15 19:32:00,559 - app.main - INFO - ============================================================
+2025-12-15 19:32:00,559 - app.main - INFO - Starting AI Summarization Server
+2025-12-15 19:32:00,559 - app.main - INFO - ============================================================
+2025-12-15 19:32:00,559 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-15 19:32:00,559 - app.main - INFO - Model: deepseek-r1:latest
+2025-12-15 19:32:00,559 - app.main - INFO - Max file size: 20MB
+2025-12-15 19:32:00,559 - app.main - INFO - Allowed extensions: pdf, docx, txt
+2025-12-15 19:32:02,611 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-15 19:32:04,656 - app.main - INFO - Available models: deepseek-r1:latest
+2025-12-15 19:32:04,656 - app.main - INFO - ============================================================
+2025-12-15 19:32:31,718 - app.main - INFO - Shutting down AI Summarization Server
+2025-12-15 19:40:03,778 - app.main - INFO - ============================================================
+2025-12-15 19:40:03,779 - app.main - INFO - Starting AI Summarization Server
+2025-12-15 19:40:03,779 - app.main - INFO - ============================================================
+2025-12-15 19:40:03,779 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-15 19:40:03,779 - app.main - INFO - Model: deepseek-r1:latest
+2025-12-15 19:40:03,779 - app.main - INFO - Max file size: 20MB
+2025-12-15 19:40:03,779 - app.main - INFO - Allowed extensions: pdf, docx, txt
+2025-12-15 19:40:05,832 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-15 19:40:07,897 - app.main - INFO - Available models: deepseek-r1:latest
+2025-12-15 19:40:07,897 - app.main - INFO - ============================================================
+2025-12-15 19:40:26,151 - app.api.summarize - INFO - Processing file: Terminology.docx
+2025-12-15 19:40:26,151 - app.services.file_service - INFO - Saved file: Terminology.docx -> C:\projects\Summarise\AI Server\temp\uploads\17241540-25ce-4118-9810-30cd64bc6eab.docx (468521 bytes)
+2025-12-15 19:40:26,152 - app.api.summarize - INFO - Extracting text from file
+2025-12-15 19:40:26,174 - app.api.summarize - INFO - Extracted 4987 characters
+2025-12-15 19:40:26,175 - app.services.summarizer - INFO - Starting summarization for text of length 4987
+2025-12-15 19:40:26,175 - app.services.summarizer - INFO - Text split into 2 chunks
+2025-12-15 19:40:26,175 - app.services.summarizer - INFO - Summarizing chunk 1/2
+2025-12-15 19:40:26,175 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:40:34,407 - app.services.ollama_client - INFO - Successfully generated 1263 characters
+2025-12-15 19:40:34,408 - app.services.summarizer - INFO - Summarizing chunk 2/2
+2025-12-15 19:40:34,408 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:40:39,798 - app.services.ollama_client - INFO - Successfully generated 639 characters
+2025-12-15 19:40:39,798 - app.services.summarizer - INFO - Combining chunk summaries
+2025-12-15 19:40:39,798 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:40:44,293 - app.services.ollama_client - INFO - Successfully generated 721 characters
+2025-12-15 19:40:44,293 - app.services.summarizer - INFO - Extracting key points
+2025-12-15 19:40:44,293 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:40:50,921 - app.services.ollama_client - INFO - Successfully generated 748 characters
+2025-12-15 19:40:50,921 - app.services.summarizer - INFO - Summarization complete
+2025-12-15 19:40:50,921 - app.api.summarize - INFO - Successfully processed Terminology.docx in 24.77s
+2025-12-15 19:40:50,921 - app.services.file_service - INFO - Deleted file: C:\projects\Summarise\AI Server\temp\uploads\17241540-25ce-4118-9810-30cd64bc6eab.docx
+2025-12-15 19:48:24,532 - app.api.summarize - INFO - Extracting text from file
+2025-12-15 19:48:24,552 - app.api.summarize - INFO - Extracted 4429 characters
+2025-12-15 19:48:24,552 - app.services.summarizer - INFO - Starting summarization for text of length 4429
+2025-12-15 19:48:24,552 - app.services.summarizer - INFO - Text split into 2 chunks
+2025-12-15 19:48:24,552 - app.services.summarizer - INFO - Summarizing chunk 1/2
+2025-12-15 19:48:24,552 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:48:30,728 - app.services.ollama_client - INFO - Successfully generated 1005 characters
+2025-12-15 19:48:30,729 - app.services.summarizer - INFO - Summarizing chunk 2/2
+2025-12-15 19:48:30,731 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:48:35,361 - app.services.ollama_client - INFO - Successfully generated 827 characters
+2025-12-15 19:48:35,362 - app.services.summarizer - INFO - Combining chunk summaries
+2025-12-15 19:48:35,362 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:48:41,078 - app.services.ollama_client - INFO - Successfully generated 914 characters
+2025-12-15 19:48:41,079 - app.services.summarizer - INFO - Extracting key points
+2025-12-15 19:48:41,079 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:48:45,464 - app.services.ollama_client - INFO - Successfully generated 681 characters
+2025-12-15 19:48:45,464 - app.services.summarizer - INFO - Summarization complete
+2025-12-15 19:48:45,467 - app.services.file_service - INFO - Deleted file: C:\projects\Summarise\AI Server\temp\uploads\eae6451a-5933-48a7-a1ef-9def1a855b80.docx
+2025-12-15 19:58:03,250 - app.api.summarize - INFO - Processing file: NEPP-BOK-2018-Wyrwas-GPU-TN60884.pdf
+2025-12-15 19:58:03,251 - app.services.file_service - INFO - Saved file: NEPP-BOK-2018-Wyrwas-GPU-TN60884.pdf -> C:\projects\Summarise\AI Server\temp\uploads\75dce92d-99d8-4f21-a308-ab169c5f7214.pdf (800082 bytes)
+2025-12-15 19:58:03,252 - app.api.summarize - INFO - Extracting text from file
+2025-12-15 19:58:03,980 - app.api.summarize - INFO - Extracted 86409 characters
+2025-12-15 19:58:03,981 - app.services.summarizer - INFO - Starting summarization for text of length 86409
+2025-12-15 19:58:03,981 - app.services.summarizer - INFO - Text split into 33 chunks
+2025-12-15 19:58:03,981 - app.services.summarizer - INFO - Summarizing chunk 1/33
+2025-12-15 19:58:03,981 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:58:09,526 - app.services.ollama_client - INFO - Successfully generated 572 characters
+2025-12-15 19:58:09,526 - app.services.summarizer - INFO - Summarizing chunk 2/33
+2025-12-15 19:58:09,526 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:58:14,506 - app.services.ollama_client - INFO - Successfully generated 695 characters
+2025-12-15 19:58:14,506 - app.services.summarizer - INFO - Summarizing chunk 3/33
+2025-12-15 19:58:14,508 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:58:20,273 - app.services.ollama_client - INFO - Successfully generated 731 characters
+2025-12-15 19:58:20,273 - app.services.summarizer - INFO - Summarizing chunk 4/33
+2025-12-15 19:58:20,276 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:58:24,571 - app.services.ollama_client - INFO - Successfully generated 594 characters
+2025-12-15 19:58:24,575 - app.services.summarizer - INFO - Summarizing chunk 5/33
+2025-12-15 19:58:24,575 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:58:28,892 - app.services.ollama_client - INFO - Successfully generated 747 characters
+2025-12-15 19:58:28,892 - app.services.summarizer - INFO - Summarizing chunk 6/33
+2025-12-15 19:58:28,892 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:58:34,199 - app.services.ollama_client - INFO - Successfully generated 937 characters
+2025-12-15 19:58:34,199 - app.services.summarizer - INFO - Summarizing chunk 7/33
+2025-12-15 19:58:34,200 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:58:38,494 - app.services.ollama_client - INFO - Successfully generated 506 characters
+2025-12-15 19:58:38,494 - app.services.summarizer - INFO - Summarizing chunk 8/33
+2025-12-15 19:58:38,494 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:58:43,276 - app.services.ollama_client - INFO - Successfully generated 1122 characters
+2025-12-15 19:58:43,276 - app.services.summarizer - INFO - Summarizing chunk 9/33
+2025-12-15 19:58:43,276 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:58:48,918 - app.services.ollama_client - INFO - Successfully generated 1478 characters
+2025-12-15 19:58:48,918 - app.services.summarizer - INFO - Summarizing chunk 10/33
+2025-12-15 19:58:48,918 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:58:53,734 - app.services.ollama_client - INFO - Successfully generated 719 characters
+2025-12-15 19:58:53,734 - app.services.summarizer - INFO - Summarizing chunk 11/33
+2025-12-15 19:58:53,734 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:58:58,036 - app.services.ollama_client - INFO - Successfully generated 582 characters
+2025-12-15 19:58:58,036 - app.services.summarizer - INFO - Summarizing chunk 12/33
+2025-12-15 19:58:58,036 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:59:03,341 - app.services.ollama_client - INFO - Successfully generated 1288 characters
+2025-12-15 19:59:03,341 - app.services.summarizer - INFO - Summarizing chunk 13/33
+2025-12-15 19:59:03,342 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:59:08,586 - app.services.ollama_client - INFO - Successfully generated 1226 characters
+2025-12-15 19:59:08,586 - app.services.summarizer - INFO - Summarizing chunk 14/33
+2025-12-15 19:59:08,586 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:59:13,367 - app.services.ollama_client - INFO - Successfully generated 939 characters
+2025-12-15 19:59:13,368 - app.services.summarizer - INFO - Summarizing chunk 15/33
+2025-12-15 19:59:13,368 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:59:19,592 - app.services.ollama_client - INFO - Successfully generated 988 characters
+2025-12-15 19:59:19,592 - app.services.summarizer - INFO - Summarizing chunk 16/33
+2025-12-15 19:59:19,592 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:59:24,849 - app.services.ollama_client - INFO - Successfully generated 676 characters
+2025-12-15 19:59:24,849 - app.services.summarizer - INFO - Summarizing chunk 17/33
+2025-12-15 19:59:24,850 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:59:29,667 - app.services.ollama_client - INFO - Successfully generated 1090 characters
+2025-12-15 19:59:29,668 - app.services.summarizer - INFO - Summarizing chunk 18/33
+2025-12-15 19:59:29,670 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:59:33,944 - app.services.ollama_client - INFO - Successfully generated 647 characters
+2025-12-15 19:59:33,945 - app.services.summarizer - INFO - Summarizing chunk 19/33
+2025-12-15 19:59:33,945 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:59:39,664 - app.services.ollama_client - INFO - Successfully generated 672 characters
+2025-12-15 19:59:39,664 - app.services.summarizer - INFO - Summarizing chunk 20/33
+2025-12-15 19:59:39,664 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:59:44,203 - app.services.ollama_client - INFO - Successfully generated 800 characters
+2025-12-15 19:59:44,203 - app.services.summarizer - INFO - Summarizing chunk 21/33
+2025-12-15 19:59:44,203 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:59:49,498 - app.services.ollama_client - INFO - Successfully generated 988 characters
+2025-12-15 19:59:49,498 - app.services.summarizer - INFO - Summarizing chunk 22/33
+2025-12-15 19:59:49,498 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 19:59:55,610 - app.services.ollama_client - INFO - Successfully generated 525 characters
+2025-12-15 19:59:55,610 - app.services.summarizer - INFO - Summarizing chunk 23/33
+2025-12-15 19:59:55,610 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:00:00,282 - app.services.ollama_client - INFO - Successfully generated 823 characters
+2025-12-15 20:00:00,282 - app.services.summarizer - INFO - Summarizing chunk 24/33
+2025-12-15 20:00:00,282 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:00:05,554 - app.services.ollama_client - INFO - Successfully generated 1206 characters
+2025-12-15 20:00:05,554 - app.services.summarizer - INFO - Summarizing chunk 25/33
+2025-12-15 20:00:05,554 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:00:10,899 - app.services.ollama_client - INFO - Successfully generated 1288 characters
+2025-12-15 20:00:10,899 - app.services.summarizer - INFO - Summarizing chunk 26/33
+2025-12-15 20:00:10,899 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:00:15,890 - app.services.ollama_client - INFO - Successfully generated 874 characters
+2025-12-15 20:00:15,891 - app.services.summarizer - INFO - Summarizing chunk 27/33
+2025-12-15 20:00:15,891 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:00:22,110 - app.services.ollama_client - INFO - Successfully generated 702 characters
+2025-12-15 20:00:22,110 - app.services.summarizer - INFO - Summarizing chunk 28/33
+2025-12-15 20:00:22,110 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:00:27,563 - app.services.ollama_client - INFO - Successfully generated 1510 characters
+2025-12-15 20:00:27,563 - app.services.summarizer - INFO - Summarizing chunk 29/33
+2025-12-15 20:00:27,563 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:00:34,089 - app.services.ollama_client - INFO - Successfully generated 1678 characters
+2025-12-15 20:00:34,089 - app.services.summarizer - INFO - Summarizing chunk 30/33
+2025-12-15 20:00:34,092 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:00:40,112 - app.services.ollama_client - INFO - Successfully generated 1020 characters
+2025-12-15 20:00:40,112 - app.services.summarizer - INFO - Summarizing chunk 31/33
+2025-12-15 20:00:40,112 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:00:43,883 - app.services.ollama_client - INFO - Successfully generated 185 characters
+2025-12-15 20:00:43,883 - app.services.summarizer - INFO - Summarizing chunk 32/33
+2025-12-15 20:00:43,883 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:00:48,166 - app.services.ollama_client - INFO - Successfully generated 423 characters
+2025-12-15 20:00:48,167 - app.services.summarizer - INFO - Summarizing chunk 33/33
+2025-12-15 20:00:48,167 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:00:53,551 - app.services.ollama_client - INFO - Successfully generated 898 characters
+2025-12-15 20:00:53,551 - app.services.summarizer - INFO - Combining chunk summaries
+2025-12-15 20:00:53,554 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:00:59,413 - app.services.ollama_client - INFO - Successfully generated 1788 characters
+2025-12-15 20:00:59,414 - app.services.summarizer - INFO - Extracting key points
+2025-12-15 20:00:59,414 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:01:05,137 - app.services.ollama_client - INFO - Successfully generated 834 characters
+2025-12-15 20:01:05,137 - app.services.summarizer - INFO - Summarization complete
+2025-12-15 20:01:05,137 - app.api.summarize - INFO - Successfully processed NEPP-BOK-2018-Wyrwas-GPU-TN60884.pdf in 181.89s
+2025-12-15 20:01:05,138 - app.services.file_service - INFO - Deleted file: C:\projects\Summarise\AI Server\temp\uploads\75dce92d-99d8-4f21-a308-ab169c5f7214.pdf
+2025-12-15 20:01:05,159 - app.api.summarize - INFO - Processing file: VIET Translation proofread for VWAT Chatbot .docx
+2025-12-15 20:01:05,162 - app.services.file_service - INFO - Saved file: VIET Translation proofread for VWAT Chatbot .docx -> C:\projects\Summarise\AI Server\temp\uploads\09ebc11f-e3c0-4940-9735-4ae51fc057ff.docx (1388039 bytes)
+2025-12-15 20:01:05,162 - app.api.summarize - INFO - Extracting text from file
+2025-12-15 20:01:05,288 - app.api.summarize - INFO - Extracted 46565 characters
+2025-12-15 20:01:05,291 - app.services.summarizer - INFO - Starting summarization for text of length 46565
+2025-12-15 20:01:05,291 - app.services.summarizer - INFO - Text split into 18 chunks
+2025-12-15 20:01:05,291 - app.services.summarizer - INFO - Summarizing chunk 1/18
+2025-12-15 20:01:05,291 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:01:09,759 - app.services.ollama_client - INFO - Successfully generated 698 characters
+2025-12-15 20:01:09,759 - app.services.summarizer - INFO - Summarizing chunk 2/18
+2025-12-15 20:01:09,759 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:01:19,501 - app.services.ollama_client - INFO - Successfully generated 988 characters
+2025-12-15 20:01:19,501 - app.services.summarizer - INFO - Summarizing chunk 3/18
+2025-12-15 20:01:19,501 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:01:23,767 - app.services.ollama_client - INFO - Successfully generated 609 characters
+2025-12-15 20:01:23,768 - app.services.summarizer - INFO - Summarizing chunk 4/18
+2025-12-15 20:01:23,768 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:01:28,212 - app.services.ollama_client - INFO - Successfully generated 723 characters
+2025-12-15 20:01:28,213 - app.services.summarizer - INFO - Summarizing chunk 5/18
+2025-12-15 20:01:28,213 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:01:34,347 - app.services.ollama_client - INFO - Successfully generated 742 characters
+2025-12-15 20:01:34,347 - app.services.summarizer - INFO - Summarizing chunk 6/18
+2025-12-15 20:01:34,347 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:01:39,016 - app.services.ollama_client - INFO - Successfully generated 744 characters
+2025-12-15 20:01:39,017 - app.services.summarizer - INFO - Summarizing chunk 7/18
+2025-12-15 20:01:39,017 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:01:43,788 - app.services.ollama_client - INFO - Successfully generated 789 characters
+2025-12-15 20:01:43,788 - app.services.summarizer - INFO - Summarizing chunk 8/18
+2025-12-15 20:01:43,788 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:01:48,074 - app.services.ollama_client - INFO - Successfully generated 492 characters
+2025-12-15 20:01:48,075 - app.services.summarizer - INFO - Summarizing chunk 9/18
+2025-12-15 20:01:48,075 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:01:52,714 - app.services.ollama_client - INFO - Successfully generated 766 characters
+2025-12-15 20:01:52,714 - app.services.summarizer - INFO - Summarizing chunk 10/18
+2025-12-15 20:01:52,715 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:01:58,890 - app.services.ollama_client - INFO - Successfully generated 1310 characters
+2025-12-15 20:01:58,890 - app.services.summarizer - INFO - Summarizing chunk 11/18
+2025-12-15 20:01:58,890 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:02:04,720 - app.services.ollama_client - INFO - Successfully generated 802 characters
+2025-12-15 20:02:04,721 - app.services.summarizer - INFO - Summarizing chunk 12/18
+2025-12-15 20:02:04,721 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:02:10,221 - app.services.ollama_client - INFO - Successfully generated 658 characters
+2025-12-15 20:02:10,221 - app.services.summarizer - INFO - Summarizing chunk 13/18
+2025-12-15 20:02:10,221 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:02:16,213 - app.services.ollama_client - INFO - Successfully generated 1276 characters
+2025-12-15 20:02:16,213 - app.services.summarizer - INFO - Summarizing chunk 14/18
+2025-12-15 20:02:16,213 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:02:20,266 - app.services.ollama_client - INFO - Successfully generated 431 characters
+2025-12-15 20:02:20,266 - app.services.summarizer - INFO - Summarizing chunk 15/18
+2025-12-15 20:02:20,266 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:02:26,353 - app.services.ollama_client - INFO - Successfully generated 976 characters
+2025-12-15 20:02:26,353 - app.services.summarizer - INFO - Summarizing chunk 16/18
+2025-12-15 20:02:26,353 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:02:30,911 - app.services.ollama_client - INFO - Successfully generated 836 characters
+2025-12-15 20:02:30,911 - app.services.summarizer - INFO - Summarizing chunk 17/18
+2025-12-15 20:02:30,911 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:02:35,079 - app.services.ollama_client - INFO - Successfully generated 437 characters
+2025-12-15 20:02:35,079 - app.services.summarizer - INFO - Summarizing chunk 18/18
+2025-12-15 20:02:35,079 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:02:38,965 - app.services.ollama_client - INFO - Successfully generated 282 characters
+2025-12-15 20:02:38,965 - app.services.summarizer - INFO - Combining chunk summaries
+2025-12-15 20:02:38,965 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:02:45,415 - app.services.ollama_client - INFO - Successfully generated 717 characters
+2025-12-15 20:02:45,415 - app.services.summarizer - INFO - Extracting key points
+2025-12-15 20:02:45,415 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:02:49,239 - app.services.ollama_client - INFO - Successfully generated 511 characters
+2025-12-15 20:02:49,240 - app.services.summarizer - INFO - Summarization complete
+2025-12-15 20:02:49,240 - app.api.summarize - INFO - Successfully processed VIET Translation proofread for VWAT Chatbot .docx in 104.08s
+2025-12-15 20:02:49,240 - app.services.file_service - INFO - Deleted file: C:\projects\Summarise\AI Server\temp\uploads\09ebc11f-e3c0-4940-9735-4ae51fc057ff.docx
+2025-12-15 20:03:54,681 - app.api.summarize - INFO - Processing file: Terminology.docx
+2025-12-15 20:03:54,681 - app.services.file_service - INFO - Saved file: Terminology.docx -> C:\projects\Summarise\AI Server\temp\uploads\087b86b5-28b9-4457-8648-fcd9f52bb017.docx (468521 bytes)
+2025-12-15 20:03:54,682 - app.api.summarize - INFO - Extracting text from file
+2025-12-15 20:03:54,702 - app.api.summarize - INFO - Extracted 4987 characters
+2025-12-15 20:03:54,702 - app.services.summarizer - INFO - Starting summarization for text of length 4987
+2025-12-15 20:03:54,702 - app.services.summarizer - INFO - Text split into 2 chunks
+2025-12-15 20:03:54,702 - app.services.summarizer - INFO - Summarizing chunk 1/2
+2025-12-15 20:03:54,702 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:04:00,420 - app.services.ollama_client - INFO - Successfully generated 1432 characters
+2025-12-15 20:04:00,420 - app.services.summarizer - INFO - Summarizing chunk 2/2
+2025-12-15 20:04:00,420 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:04:07,058 - app.services.ollama_client - INFO - Successfully generated 1034 characters
+2025-12-15 20:04:07,059 - app.services.summarizer - INFO - Combining chunk summaries
+2025-12-15 20:04:07,059 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:04:13,060 - app.services.ollama_client - INFO - Successfully generated 1401 characters
+2025-12-15 20:04:13,060 - app.services.summarizer - INFO - Extracting key points
+2025-12-15 20:04:13,060 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:04:17,578 - app.services.ollama_client - INFO - Successfully generated 873 characters
+2025-12-15 20:04:17,578 - app.services.summarizer - INFO - Summarization complete
+2025-12-15 20:04:17,578 - app.api.summarize - INFO - Successfully processed Terminology.docx in 22.9s
+2025-12-15 20:04:17,578 - app.services.file_service - INFO - Deleted file: C:\projects\Summarise\AI Server\temp\uploads\087b86b5-28b9-4457-8648-fcd9f52bb017.docx
+2025-12-15 20:04:55,950 - app.api.summarize - INFO - Extracting text from file
+2025-12-15 20:04:55,977 - app.api.summarize - INFO - Extracted 4429 characters
+2025-12-15 20:04:55,977 - app.services.summarizer - INFO - Starting summarization for text of length 4429
+2025-12-15 20:04:55,978 - app.services.summarizer - INFO - Text split into 2 chunks
+2025-12-15 20:04:55,978 - app.services.summarizer - INFO - Summarizing chunk 1/2
+2025-12-15 20:04:55,978 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:05:01,358 - app.services.ollama_client - INFO - Successfully generated 1209 characters
+2025-12-15 20:05:01,362 - app.services.summarizer - INFO - Summarizing chunk 2/2
+2025-12-15 20:05:01,362 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:05:07,443 - app.services.ollama_client - INFO - Successfully generated 1701 characters
+2025-12-15 20:05:07,443 - app.services.summarizer - INFO - Combining chunk summaries
+2025-12-15 20:05:07,443 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:05:13,360 - app.services.ollama_client - INFO - Successfully generated 1301 characters
+2025-12-15 20:05:13,362 - app.services.summarizer - INFO - Extracting key points
+2025-12-15 20:05:13,363 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 20:05:17,760 - app.services.ollama_client - INFO - Successfully generated 553 characters
+2025-12-15 20:05:17,760 - app.services.summarizer - INFO - Summarization complete
+2025-12-15 20:05:17,762 - app.services.file_service - INFO - Deleted file: C:\projects\Summarise\AI Server\temp\uploads\cf77732a-e6fb-4a34-abe1-6c34d9acf5b7.docx
+2025-12-15 21:29:27,769 - app.api.summarize - INFO - Extracting text from file
+2025-12-15 21:29:27,787 - app.api.summarize - INFO - Extracted 4429 characters
+2025-12-15 21:29:27,787 - app.services.summarizer - INFO - Starting summarization for text of length 4429
+2025-12-15 21:29:27,787 - app.services.summarizer - INFO - Text split into 2 chunks
+2025-12-15 21:29:27,787 - app.services.summarizer - INFO - Summarizing chunk 1/2
+2025-12-15 21:29:27,787 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 21:29:34,271 - app.services.ollama_client - INFO - Successfully generated 1098 characters
+2025-12-15 21:29:34,274 - app.services.summarizer - INFO - Summarizing chunk 2/2
+2025-12-15 21:29:34,274 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 21:29:40,025 - app.services.ollama_client - INFO - Successfully generated 1324 characters
+2025-12-15 21:29:40,026 - app.services.summarizer - INFO - Combining chunk summaries
+2025-12-15 21:29:40,026 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 21:29:45,675 - app.services.ollama_client - INFO - Successfully generated 990 characters
+2025-12-15 21:29:45,676 - app.services.summarizer - INFO - Extracting key points
+2025-12-15 21:29:45,676 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 21:29:50,016 - app.services.ollama_client - INFO - Successfully generated 728 characters
+2025-12-15 21:29:50,016 - app.services.summarizer - INFO - Summarization complete
+2025-12-15 21:29:50,018 - app.services.file_service - INFO - Deleted file: C:\projects\Summarise\AI Server\temp\uploads\1efb7931-bd66-40a2-a963-3f9c327a640e.docx
+2025-12-15 21:42:32,891 - app.main - INFO - Shutting down AI Summarization Server
+2025-12-15 21:42:38,386 - app.main - INFO - ============================================================
+2025-12-15 21:42:38,387 - app.main - INFO - Starting AI Summarization Server
+2025-12-15 21:42:38,387 - app.main - INFO - ============================================================
+2025-12-15 21:42:38,387 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-15 21:42:38,387 - app.main - INFO - Model: deepseek-r1:latest
+2025-12-15 21:42:38,387 - app.main - INFO - Max file size: 20MB
+2025-12-15 21:42:38,387 - app.main - INFO - Allowed extensions: pdf, docx, txt
+2025-12-15 21:42:40,409 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-15 21:42:42,429 - app.main - INFO - Available models: gpt-oss:20b, deepseek-r1:latest
+2025-12-15 21:42:42,430 - app.main - INFO - ============================================================
+2025-12-15 21:44:01,675 - app.main - INFO - Shutting down AI Summarization Server
+2025-12-15 21:44:10,715 - app.main - INFO - ============================================================
+2025-12-15 21:44:10,715 - app.main - INFO - Starting AI Summarization Server
+2025-12-15 21:44:10,715 - app.main - INFO - ============================================================
+2025-12-15 21:44:10,715 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-15 21:44:10,715 - app.main - INFO - Model: deepseek-r1:latest
+2025-12-15 21:44:10,715 - app.main - INFO - Max file size: 20MB
+2025-12-15 21:44:10,715 - app.main - INFO - Allowed extensions: pdf, docx, txt
+2025-12-15 21:44:12,740 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-15 21:44:14,769 - app.main - INFO - Available models: gpt-oss:20b, deepseek-r1:latest
+2025-12-15 21:44:14,770 - app.main - INFO - ============================================================
+2025-12-15 21:45:29,997 - app.main - INFO - Shutting down AI Summarization Server
+2025-12-15 21:45:34,683 - app.main - INFO - ============================================================
+2025-12-15 21:45:34,683 - app.main - INFO - Starting AI Summarization Server
+2025-12-15 21:45:34,683 - app.main - INFO - ============================================================
+2025-12-15 21:45:34,683 - app.main - INFO - Ollama URL: http://localhost:11434
+2025-12-15 21:45:34,683 - app.main - INFO - Model: gpt-oss:20b
+2025-12-15 21:45:34,683 - app.main - INFO - Max file size: 20MB
+2025-12-15 21:45:34,683 - app.main - INFO - Allowed extensions: pdf, docx, txt
+2025-12-15 21:45:36,701 - app.main - INFO - [OK] Ollama service is healthy
+2025-12-15 21:45:38,735 - app.main - INFO - Available models: gpt-oss:20b, deepseek-r1:latest
+2025-12-15 21:45:38,735 - app.main - INFO - ============================================================
+2025-12-15 21:45:59,473 - app.api.summarize - INFO - Extracting text from file
+2025-12-15 21:45:59,494 - app.api.summarize - INFO - Extracted 4429 characters
+2025-12-15 21:45:59,494 - app.services.summarizer - INFO - Starting summarization for text of length 4429
+2025-12-15 21:45:59,494 - app.services.summarizer - INFO - Text split into 2 chunks
+2025-12-15 21:45:59,495 - app.services.summarizer - INFO - Summarizing chunk 1/2
+2025-12-15 21:45:59,495 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 21:46:05,778 - app.services.ollama_client - INFO - Successfully generated 2032 characters
+2025-12-15 21:46:05,778 - app.services.summarizer - INFO - Summarizing chunk 2/2
+2025-12-15 21:46:05,778 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 21:46:12,115 - app.services.ollama_client - INFO - Successfully generated 1542 characters
+2025-12-15 21:46:12,119 - app.services.summarizer - INFO - Combining chunk summaries
+2025-12-15 21:46:12,119 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 21:46:19,107 - app.services.ollama_client - INFO - Successfully generated 2650 characters
+2025-12-15 21:46:19,108 - app.services.summarizer - INFO - Extracting key points
+2025-12-15 21:46:19,110 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-15 21:46:23,738 - app.services.ollama_client - INFO - Successfully generated 1076 characters
+2025-12-15 21:46:23,742 - app.services.summarizer - INFO - Summarization complete
+2025-12-15 21:46:23,747 - app.services.file_service - INFO - Deleted file: C:\projects\Summarise\AI Server\temp\uploads\8a022289-7bc4-45ec-ad10-7aec80faaf94.docx
+2025-12-16 14:03:21,639 - app.api.summarize - INFO - Processing file: AIG210 Computer Vision Project Proposal.pdf
+2025-12-16 14:03:21,641 - app.services.file_service - INFO - Saved file: AIG210 Computer Vision Project Proposal.pdf -> C:\projects\Summarise\AI Server\temp\uploads\04494ed3-e814-46ab-8b38-009aaf4caaac.pdf (323385 bytes)
+2025-12-16 14:03:21,641 - app.api.summarize - INFO - Extracting text from file
+2025-12-16 14:03:21,723 - app.api.summarize - INFO - Extracted 4309 characters
+2025-12-16 14:03:21,724 - app.services.summarizer - INFO - Starting summarization for text of length 4309
+2025-12-16 14:03:21,724 - app.services.summarizer - INFO - Text split into 2 chunks
+2025-12-16 14:03:21,724 - app.services.summarizer - INFO - Summarizing chunk 1/2
+2025-12-16 14:03:21,724 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-16 14:03:31,585 - app.services.ollama_client - INFO - Successfully generated 1269 characters
+2025-12-16 14:03:31,588 - app.services.summarizer - INFO - Summarizing chunk 2/2
+2025-12-16 14:03:31,589 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-16 14:03:35,288 - app.services.ollama_client - INFO - Successfully generated 997 characters
+2025-12-16 14:03:35,291 - app.services.summarizer - INFO - Combining chunk summaries
+2025-12-16 14:03:35,292 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-16 14:03:39,725 - app.services.ollama_client - INFO - Successfully generated 1715 characters
+2025-12-16 14:03:39,726 - app.services.summarizer - INFO - Extracting key points
+2025-12-16 14:03:39,726 - app.services.ollama_client - INFO - Calling Ollama API (attempt 1/2)
+2025-12-16 14:03:42,991 - app.services.ollama_client - INFO - Successfully generated 837 characters
+2025-12-16 14:03:42,992 - app.services.summarizer - INFO - Summarization complete
+2025-12-16 14:03:42,992 - app.api.summarize - INFO - Successfully processed AIG210 Computer Vision Project Proposal.pdf in 21.35s
+2025-12-16 14:03:42,992 - app.services.file_service - INFO - Deleted file: C:\projects\Summarise\AI Server\temp\uploads\04494ed3-e814-46ab-8b38-009aaf4caaac.pdf
+2025-12-16 14:27:05,438 - app.main - INFO - Shutting down AI Summarization Server
